@@ -11,8 +11,8 @@ on:
 jobs:
   build:
     name: Validate
-    runs-on: x86_64_monterey
-    if: github.repository_owner == 'dortania'
+    runs-on: macos-latest
+    
     steps:
       - uses: actions/checkout@v4
       - name: Validate
