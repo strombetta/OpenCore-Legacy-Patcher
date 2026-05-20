@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     name: Build wxPython
-    runs-on: macos-26
+    runs-on: macos-26-large
 
     env:
       # GitHub Information
