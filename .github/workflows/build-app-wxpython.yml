@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     name: Build wxPython
-    runs-on: macos-latest
+    runs-on: x86_64_monterey
 
     env:
       # GitHub Information
